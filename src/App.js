@@ -8,15 +8,6 @@ import $ from "jquery";
 import logo from "./logo.svg";
 import "./App.css";
 
-import InitialPage from "./pages/initialPage";
-import Home from "./pages/home";
-import Register from "./pages/register";
-import Welcome from "./pages/welcome/index.js";
-import Marketplace from "./pages/marketplace/MarketBody.js";
-import Partners from "./pages/partners/index.js";
-import Subscribe from "./pages/subscribe/index.js";
-import Footer from "./pages/footer/index.js";
-
 // const fs = require("fs");
 // import listReactFiles from "list-react-files";
 
@@ -117,18 +108,7 @@ function App() {
           <Home />
         </Preload>
       </div>
-      {loading ? (
-        <>
-          <Register />
-          <Welcome />
-          <Marketplace />
-          <Partners />
-          <Subscribe />
-          <Footer />
-        </>
-      ) : (
-        ""
-      )}
+      {loading ? <></> : ""}
     </div>
   );
 }
