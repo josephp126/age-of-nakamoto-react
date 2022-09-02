@@ -1,0 +1,142 @@
+@media screen and (max-width: 1200px) {
+  .img-cloud-1 {
+    width: auto !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .home {
+    .nav-bar {
+      margin-left: calc((-950px + 100vw) / 2);
+
+      ul {
+        .left-navbar,
+        .right-navbar {
+          display: none;
+        }
+
+        // .mobile-dropdown {
+        //   position: relative;
+        //   display: inline-block;
+
+        //   .dropdown-content {
+        //     display: none;
+        //     position: absolute;
+        //     background-color: #f9f9f9;
+        //     min-width: 160px;
+        //     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        //     z-index: 1;
+
+        //     a {
+        //       &:hover {
+        //         background-color: #f1f1f1;
+        //       }
+        //     }
+        //   }
+
+        //   &:hover .dropdown-content {
+        //     display: block;
+        //   }
+
+        //   .mobile-dropdown:hover .dropbtn {
+        //     background-color: #3e8e41;
+        //   }
+        // }
+
+        // .mobile-nav {
+        //   margin-left: 200px !important;
+        //   background: transparent;
+        //   border: none;
+
+        //   img {
+        //     width: 35px;
+        //   }
+        // }
+      }
+
+      .navbar-logo {
+        width: 200px;
+      }
+    }
+
+    .initial-video1 {
+      display: none;
+    }
+
+    .initial-video2 {
+      display: none;
+    }
+
+    .img-fx2 {
+      display: none;
+    }
+
+    .home-banner {
+      .img-home-logo {
+        width: 300px !important;
+      }
+    }
+
+    .home-btn-group {
+      flex-direction: column;
+
+      .home-banner-img {
+        display: none;
+      }
+    }
+
+    .img-recortado {
+      width: 150px !important;
+    }
+
+    .img-mount1 {
+      width: 600px !important;
+    }
+
+    .img-cloud3 {
+      display: none;
+    }
+
+    .img-cloud2 {
+      bottom: 30px !important;
+    }
+
+    .img-cloud1 {
+      width: auto !important;
+      height: 600px !important;
+      bottom: 0 !important;
+    }
+
+    .img-cloud-1 {
+      width: 950px !important;
+      bottom: 30px !important;
+      height: auto !important;
+      top: auto !important;
+    }
+
+    .img-mount2 {
+      width: 900px !important;
+      height: auto !important;
+    }
+
+    .img-mount3 {
+      width: 800px !important;
+      margin-left: -70px !important;
+      height: 300px !important;
+    }
+
+    .img-fx1 {
+      display: none !important;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img-mount2 {
+    margin-left: -200px !important;
+  }
+
+  .link-group-list {
+    display: none;
+  }
+}
