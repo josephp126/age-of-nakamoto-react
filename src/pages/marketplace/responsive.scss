@@ -1,0 +1,165 @@
+@media screen and (max-width: 950px) {
+  .img-fire {
+    width: 120% !important;
+    height: auto !important;
+  }
+
+  .welcome .paper-description p {
+    width: 80% !important;
+  }
+
+  .features {
+    width: auto !important;
+  }
+
+  .img-elipse {
+    width: 560px !important;
+  }
+
+  .img-elipse-bg1 {
+    width: 480px !important;
+  }
+
+  .marketplace-degrade {
+    width: 100% !important;
+  }
+
+  .mobile-bg {
+    display: block !important;
+    width: 100%;
+  }
+
+  .img-fire,
+  .img-elipse,
+  .img-elipse-bg1 {
+    display: none !important;
+  }
+
+  .marketplace-button {
+    width: 70% !important;
+  }
+
+  .img-warrior2 {
+    right: -50px !important;
+    bottom: 250px !important;
+    width: 330px !important;
+  }
+
+  .img-warrior1 {
+    left: -37px !important;
+    bottom: 200px !important;
+    width: 400px !important;
+  }
+
+  .img-warrior3 {
+    width: 230px !important;
+    height: auto !important;
+    bottom: 200px !important;
+    left: 180px !important;
+  }
+
+  .img-warrior4 {
+    width: 180px !important;
+    height: auto !important;
+    bottom: 160px !important;
+    right: 190px !important;
+  }
+
+  .indicator {
+    width: auto !important;
+
+    h1 {
+      font-size: 25px !important;
+    }
+  }
+
+  .fw-light {
+    font-size: 30px;
+    width: 100% !important;
+  }
+
+  .title-container h1 {
+    font-size: 30px;
+  }
+
+  // .marketplace-description,
+  // .marketplace-description1,
+  // .marketplace-description2,
+  // .marketplace-description3,
+  // .marketplace-description4 {
+  //   top: 350px !important;
+  // }
+
+  .market-body .marketplace-description1 p {
+    font-size: 13px;
+  }
+
+  .market-body p {
+    top: 50px;
+  }
+
+  .marketplace-desc {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .img-warrior1 {
+    left: -90px !important;
+  }
+
+  .img-warrior2 {
+    right: -90px !important;
+  }
+
+  .img-warrior3 {
+    left: 100px !important;
+  }
+
+  .img-warrior4 {
+    right: 100px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .img-warrior1,
+  .img-warrior2,
+  .img-warrior3,
+  .img-warrior4 {
+    display: none;
+  }
+
+  .img-arrow-left,
+  .img-arrow-right {
+    width: 30px !important;
+  }
+
+  .marketplace-button {
+    top: 0px !important;
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .marketplace-button {
+    top: 30px !important;
+    font-size: 30px !important;
+  }
+
+  .img-arrow-left,
+  .img-arrow-right {
+    display: none !important;
+  }
+
+  .marketplace-description,
+  .marketplace-description1,
+  .marketplace-description2,
+  .marketplace-description3,
+  .marketplace-description4 {
+    top: 200px !important;
+  }
+
+  .market-body .marketplace-description1 {
+    top: 200px !important;
+  }
+}

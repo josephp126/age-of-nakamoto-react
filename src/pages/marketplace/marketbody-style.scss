@@ -1,0 +1,491 @@
+.marketplace {
+  background-color: black !important;
+  background-image: url("../../assets/images/marketplace-page/bg.png");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+
+  .marketplace-degrade {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  hr {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
+    height: 20px;
+    background: linear-gradient(#c36a2a, #fcbd45);
+  }
+
+  .indicator {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    bottom: 50px;
+
+    div {
+      display: flex;
+
+      .active-num {
+        color: white !important;
+        background-color: #fcbd45;
+        border-radius: 20px;
+      }
+
+      .indicator-num {
+        color: #4d4d4d;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "frizquadratabold";
+      }
+    }
+  }
+}
+
+.fw-light {
+  font-size: 80px;
+  background: -webkit-linear-gradient(#b25622, #ffc041);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "frizquadratabold";
+  font-weight: 700;
+  width: 1200px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(255, 207, 69);
+  filter: drop-shadow(0px 0px 10px black);
+  margin: 0;
+  padding: 0;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.animation-marketbody {
+  animation-name: animation-marketbody !important;
+  animation-duration: 2s !important;
+}
+
+.animation-warrior1 {
+  animation-name: animation-warrior1 !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: both;
+}
+
+.animation-warrior2 {
+  animation-name: animation-warrior2 !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: both;
+}
+
+.animation-warrior3 {
+  animation-name: animation-warrior3 !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: both;
+}
+
+.animation-warrior4 {
+  animation-name: animation-warrior4 !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: both;
+}
+
+.animation-marketplace-description {
+  animation-name: animation-marketplace-description !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: both;
+}
+
+.animation-marketplace-description1 {
+  animation-name: animation-marketplace-description1 !important;
+  animation-duration: 2s !important;
+  animation-fill-mode: both;
+}
+
+.animation-marketplace-description-init {
+  animation-name: animation-marketplace-description-init;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.market-body {
+  width: 1168px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .mobile-bg {
+    display: none;
+  }
+
+  .img-fire {
+    position: absolute;
+    height: 969px;
+  }
+
+  .features {
+    position: relative;
+    width: 722px;
+    height: 722px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+  }
+
+  .img-elipse {
+    position: relative;
+  }
+
+  .marketplace-button {
+    background: url("../../assets/images/marketplace-page/buttom.png"),
+      transparent;
+    position: absolute;
+    background-size: 100% 100%;
+    width: 486px;
+    height: 131px;
+    border: none;
+    top: -50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 9px black;
+    font-family: "frizquadratabold";
+  }
+
+  .img-elipse-bg1 {
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .img-warrior1 {
+    position: absolute;
+    left: -337px;
+    bottom: 60px;
+    animation-name: animation-marketbody;
+    animation-duration: 1s;
+  }
+
+  .img-warrior2 {
+    position: absolute;
+    right: -267px;
+    bottom: 125px;
+    animation-name: animation-marketbody;
+    animation-duration: 1s;
+  }
+
+  .img-warrior3 {
+    position: absolute;
+    left: -200px;
+    bottom: 125px;
+    height: 520px;
+    opacity: 0;
+  }
+
+  .img-warrior4 {
+    position: absolute;
+    right: -100px;
+    bottom: 125px;
+    height: 520px;
+    opacity: 0;
+  }
+
+  .marketplace-description {
+    position: absolute;
+    z-index: 3;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      color: white;
+      text-align: center;
+      max-width: 1232px;
+      font-size: 20px;
+      position: absolute;
+      top: 100px;
+    }
+  }
+
+  .marketplace-description1 {
+    z-index: 3;
+
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
+    p {
+      color: white;
+      text-align: center;
+      max-width: 1232px;
+      font-size: 20px;
+      position: absolute;
+      top: 100px;
+    }
+  }
+
+  .marketplace-description2 {
+    z-index: 3;
+
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
+    p {
+      color: white;
+      text-align: center;
+      max-width: 1232px;
+      font-size: 20px;
+      position: absolute;
+      top: 100px;
+    }
+  }
+
+  .marketplace-description3 {
+    z-index: 3;
+
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
+    p {
+      color: white;
+      text-align: center;
+      max-width: 1232px;
+      font-size: 20px;
+      position: absolute;
+      top: 100px;
+    }
+  }
+
+  .marketplace-description4 {
+    z-index: 3;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
+    p {
+      color: white;
+      text-align: center;
+      max-width: 1232px;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  .marketplace-description5 {
+    z-index: 3;
+
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
+    p {
+      color: white;
+      text-align: center;
+      max-width: 1232px;
+      font-size: 20px;
+      position: absolute;
+      top: 100px;
+    }
+  }
+
+  .img-arrow-right {
+    width: 73px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .img-arrow-left {
+    width: 73px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@keyframes animation-marketbody {
+  0% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animation-img-fire {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes animation-warrior1 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    left: -437px;
+  }
+}
+
+@keyframes animation-warrior2 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: -367px;
+  }
+}
+
+@keyframes animation-warrior3 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    left: 100px;
+  }
+}
+
+@keyframes animation-warrior4 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    right: 150px;
+  }
+}
+
+@keyframes animation-marketplace-description {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: -1;
+    margin-left: -1000px;
+  }
+}
+
+@keyframes animation-marketplace-description1 {
+  0% {
+    opacity: 0;
+    margin-left: 1000px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+@keyframes animation-marketplace-description-init {
+  0% {
+    opacity: 0;
+    margin-top: 100px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .marketplace-description,
+  .marketplace-description1,
+  .marketplace-description2,
+  .marketplace-description3,
+  .marketplace-description4 {
+    justify-content: center !important;
+    width: 90vw;
+    top: 300px !important;
+
+    .img-marketplace-title {
+      width: 700px;
+    }
+
+    .img-arrow-left {
+      width: 40px !important;
+      height: auto !important;
+    }
+
+    .img-arrow-right {
+      width: 40px !important;
+      height: auto !important;
+    }
+
+    p {
+      top: 60px;
+    }
+  }
+
+  .market-body .marketplace-description1 {
+    justify-content: center !important;
+    width: 90vw;
+    top: 300px !important;
+
+    .img-marketplace-title {
+      width: 700px;
+    }
+
+    .img-arrow-left {
+      width: 40px !important;
+      height: auto !important;
+    }
+
+    .img-arrow-right {
+      width: 40px !important;
+      height: auto !important;
+    }
+
+    p {
+      top: 60px;
+    }
+  }
+}
+
+#test {
+  font-family: "Volkhov", sans-serif;
+}
