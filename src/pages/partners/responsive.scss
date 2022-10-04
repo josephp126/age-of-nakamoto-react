@@ -1,0 +1,23 @@
+@media screen and (max-width: 950px) {
+  .partner-img-group {
+    div {
+      width: auto !important;
+    }
+  }
+
+  .partners .partner-main {
+    padding: 50px !important;
+  }
+  .partners .partner-main h1 {
+    font-size: 23px !important;
+    margin-left: calc((100% - 230px) / 2);
+    top: 60px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .partners .partner-main h1 {
+    font-size: 15px !important;
+    margin-left: calc((100% - 185px) / 2);
+  }
+}
