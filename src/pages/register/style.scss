@@ -1,0 +1,160 @@
+.register {
+  background-image: url("../../assets/images/register-page/bg.png");
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .register-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.3;
+    z-index: 3;
+  }
+
+  .register-body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+    .register-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 632px;
+      position: relative;
+      z-index: 5;
+
+      .register-title {
+        .register-title1 {
+          color: #f9b63d;
+          font-size: 40px;
+          font-style: italic;
+          font-weight: bold;
+          text-align: center;
+          line-height: 53px;
+          width: 632px;
+          font-family: "Friz Quadrata Std", sans-serif;
+          animation-name: animation-title1;
+          animation-duration: 1s;
+        }
+      }
+
+      .register-title2 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        line-height: 27px;
+        width: 535px;
+        height: 108px;
+        margin-left: 45px;
+        margin-top: 60px;
+        animation-name: animation-title2;
+        animation-duration: 1s;
+      }
+
+      .register-button {
+        border: none;
+        background: transparent;
+        width: 575px;
+        height: 138px;
+        background-image: url("../../assets/images/register-page/button.png");
+        animation-name: animation-register-button;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        overflow: hidden;
+        margin-top: 30px;
+
+        img {
+          cursor: pointer;
+          animation-name: animation-register-img;
+          animation-duration: 1s;
+          animation-fill-mode: both;
+        }
+      }
+    }
+
+    .mobile-register {
+      display: none;
+    }
+  }
+
+  .title-disappear-animation {
+    animation-name: animation-title-disappear;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+}
+
+@keyframes animation-title1 {
+  0% {
+    margin-left: -500px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes animation-title2 {
+  0% {
+    margin-left: -400px;
+  }
+
+  100% {
+    margin-left: 45px;
+  }
+}
+
+@keyframes animation-register-button {
+  0% {
+    left: -100px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes animation-register-img {
+  0% {
+    margin-left: -130px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes animation-title-disappear {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .register .register-body .register-form .register-button {
+    width: 400px !important;
+    background-size: 100% 100% !important;
+    height: 80px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    margin-top: 40px !important;
+
+    img {
+      width: 300px;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.register-fighters {
+  position: relative;
+  width: 60vw;
+  height: 100%;
+
+  .register-fighter {
+    position: absolute;
+    bottom: 0;
+    right: 265px;
+    animation-name: animation-fighter;
+    animation-duration: 1s;
+  }
+
+  .register-archer {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    animation-name: animation-archer;
+    animation-duration: 1s;
+  }
+
+  .register-warrior {
+    position: absolute;
+    bottom: 115px;
+    right: 597px;
+    animation-name: animation-warrior;
+    animation-duration: 1s;
+  }
+
+  .register-other {
+    position: absolute;
+    bottom: 235px;
+    right: 318px;
+    animation-name: animation-other;
+    animation-duration: 1s;
+  }
+
+  .register-flame {
+    position: absolute;
+    right: 650px;
+    bottom: 770px;
+    animation-name: animation-other;
+    animation-duration: 1s;
+  }
+
+  .register-flame2 {
+    position: absolute;
+    bottom: 433px;
+    right: 510px;
+  }
+}
+
+@keyframes animation-fighter {
+  0% {
+    bottom: -200px;
+    opacity: 0.8;
+  }
+
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animation-warrior {
+  0% {
+    right: 500px;
+    opacity: 0.5;
+  }
+
+  100% {
+    right: 597px;
+    opacity: 1;
+  }
+}
+
+@keyframes animation-archer {
+  0% {
+    right: 100px;
+    opacity: 0.5;
+  }
+
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animation-other {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animation-flame2 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

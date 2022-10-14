@@ -1,0 +1,121 @@
+@media screen and (max-width: 950px) {
+  video {
+    display: none;
+  }
+
+  .register {
+    background-position: top 0px right 10% !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    background-size: 180% 60% !important;
+
+    .register-body {
+      .register-form {
+        display: none;
+      }
+    }
+  }
+
+  .register-fighters {
+    display: none;
+  }
+
+  .mobile-register {
+    display: block !important;
+    width: 100%;
+
+    .fighter-group {
+      display: block !important;
+      // width: 500px;
+      height: 50vh;
+      margin: 0 auto;
+      margin-top: 20px !important;
+    }
+
+    .img-degrade {
+      position: absolute;
+      top: 35vh;
+      left: 0;
+      height: 300px !important;
+      width: 100% !important;
+    }
+
+    .mobile-title {
+      position: relative;
+
+      .mobile-title-1 {
+        color: #f9b63d;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        font-family: "Friz Quadrata Std", sans-serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 30px;
+        margin-top: -60px;
+
+        p:nth-child(1) {
+          width: 180px;
+          margin: 0 auto;
+        }
+
+        p:nth-child(2) {
+          width: 300px;
+          margin: 0 auto;
+        }
+      }
+
+      .mobile-title-2 {
+        color: white;
+        width: 300px;
+        margin: 0 auto;
+        font-size: 10px;
+        padding-top: 10px;
+      }
+
+      .register-mobile-button {
+        border: none;
+        background: transparent;
+        width: 300px;
+        height: 70px;
+        background-image: url("../../assets/images/register-page/button.png");
+        overflow: hidden;
+        margin-top: 30px;
+        background-size: 100% 100%;
+        margin-left: 0 !important;
+
+        img {
+          width: 80%;
+          cursor: pointer;
+          animation-name: animation-register-img;
+          animation-duration: 1s;
+          animation-fill-mode: both;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .mobile-title {
+    width: 100% !important;
+
+    .mobile-title-1 {
+      p {
+        width: 80% !important;
+        font-size: 13px !important;
+      }
+    }
+
+    .mobile-title-2 {
+      width: 80% !important;
+    }
+
+    .register-mobile-button {
+      width: 80% !important;
+      height: 50px !important;
+    }
+  }
+}
