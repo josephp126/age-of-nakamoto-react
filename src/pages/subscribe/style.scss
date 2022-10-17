@@ -1,0 +1,230 @@
+.subscribe {
+  background: url("../../assets/images/home-page/bg.png");
+  height: 900px;
+  width: 100%;
+  position: relative;
+
+  hr {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
+    height: 20px;
+    background: linear-gradient(#c36a2a, #fcbd45);
+  }
+
+  .img-degrade-subscribe {
+    position: absolute;
+    bottom: 170px;
+    z-index: 5;
+    width: 100%;
+    left: 0;
+  }
+
+  // .subscribe-header {
+  //   background: url("../../assets/images/subscribe-page/Agrupar\ 30.png");
+  //   position: relative;
+  //   display: flex;
+  //   justify-content: center;
+  //   min-height: 371px;
+
+  //   .subscribe-img-line {
+  //     height: 100%;
+  //     width: 100%;
+  //     margin-top: -300px;
+  //     opacity: 0.2;
+  //   }
+
+  // }
+
+  .subscribe-body {
+    position: relative;
+    height: calc(100% - 371px);
+
+    .subscribe-form {
+      position: absolute;
+      top: 500px;
+      z-index: 10;
+      margin-left: calc((100% - 1115px) / 2);
+
+      p {
+        font-size: 63px;
+        font-weight: bold;
+        color: white;
+        padding: 0;
+        margin: 0;
+        animation-name: animation-subscribe-form-p;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+        font-family: "frizquadratabold";
+      }
+
+      .form-body {
+        animation-name: animation-subscribe-form-send;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+      }
+
+      .subscribe-input {
+        width: 80%;
+        height: 50px;
+        border-radius: 120px;
+        border: none;
+        color: black;
+        font-size: 20px;
+        padding-left: 50px;
+        opacity: 0.7;
+        min-width: 800px;
+      }
+
+      .subscribe-send {
+        width: 10%;
+        border: none;
+        border-radius: 120px;
+        font-size: 20px;
+        font-style: italic;
+        color: black;
+        opacity: 0.7;
+        min-width: 99px;
+      }
+    }
+
+    .video-sunshine {
+      position: absolute;
+      right: -300px;
+      top: 0;
+      min-width: 100%;
+      min-height: 100%;
+      opacity: 0.3;
+      // transform: rotate(180deg);
+    }
+
+    .img-mt5 {
+      position: absolute;
+      left: -150px;
+      bottom: -90px;
+    }
+
+    .img-mt4 {
+      position: absolute;
+      left: 160px;
+      bottom: -125px;
+    }
+
+    .img-mt2 {
+      position: absolute;
+      left: -50px;
+      bottom: -200px;
+    }
+
+    .img-mt1 {
+      position: absolute;
+      right: 0;
+      bottom: -200px;
+    }
+
+    .img-mt3 {
+      position: absolute;
+      bottom: -150px;
+      right: 30px;
+    }
+
+    .img-character {
+      position: absolute;
+    }
+
+    .img-cloud2 {
+      position: absolute;
+      left: -400px;
+      bottom: -300px;
+    }
+
+    .img-cloud3 {
+      position: absolute;
+      bottom: 100px;
+      left: 500px;
+    }
+
+    .img-cloud1 {
+      position: absolute;
+      bottom: 73px;
+      left: 200px;
+    }
+  }
+}
+
+@keyframes animation-subscribe-form-p {
+  0% {
+    margin-left: -1200px;
+    opacity: 0;
+  }
+
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animation-subscribe-form-send {
+  0% {
+    margin-left: 1200px;
+    opacity: 0;
+  }
+
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1248px) {
+  .subscribe-form {
+    width: 80% !important;
+    margin-left: 10% !important;
+
+    p {
+      font-size: 40px !important;
+    }
+
+    .form-body {
+      .subscribe-input {
+        min-width: 0 !important;
+      }
+
+      .subscribe-send {
+        min-width: 0 !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .img-mt3 {
+    right: 0 !important;
+    width: 1000px !important;
+  }
+
+  .img-mt5 {
+    width: 730px !important;
+    left: -150px !important;
+  }
+
+  .img-mt4 {
+    width: 600px !important;
+    left: 50px !important;
+  }
+
+  .img-cloud2 {
+    right: 0 !important;
+  }
+
+  .img-cloud3 {
+    right: 0 !important;
+  }
+
+  .footer .footer-middle ul {
+    width: auto !important;
+  }
+}
