@@ -1,0 +1,39 @@
+@media screen and (max-width: 950px) {
+  .welcome {
+    flex-direction: column-reverse;
+    align-items: unset !important;
+    height: auto !important;
+    min-height: 100vh;
+    animation-name: animation-desc;
+    animation-duration: 1s;
+
+    .paper-description {
+      .paper-title,
+      p {
+        text-align: center !important;
+        animation: none;
+      }
+    }
+  }
+
+  .welcome .img-bg {
+    margin-top: 100px;
+    animation-name: none !important;
+  }
+}
+
+@keyframes animation-desc {
+  0% {
+    opacity: -1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .welcome .paper-description .paper-title {
+    font-size: 30px !important;
+  }
+}
